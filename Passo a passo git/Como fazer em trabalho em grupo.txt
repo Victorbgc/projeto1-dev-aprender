@@ -1,0 +1,19 @@
+Checar estado das branches: 
+$ git branch
+Puxar estado da branch principal: 
+$ git pull
+Criar nova branch onde serão feitas mudanças: 
+$ git checkout -b 'sistema-de-login'
+Confirmar branch atual:
+$ git branch
+Adicionar mudanças:
+$ git add .
+Verificar mudanças dentro da branch e estado:
+$ git status
+Validar modificação:
+$ git commit -m "modificação que foi feita"
+Unir branch atual com modificação funcional e testada com a principal:
+$ git checkout master //muda pra principal
+$ git pull //atualiza estado da master em busca de possíveis modificações do server
+$ git merge sistema-de-login //união das branches
+$ git push //envia modificação pro server
